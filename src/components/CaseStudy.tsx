@@ -1,3 +1,5 @@
+import { ExternalLink } from 'lucide-react'
+
 const CaseStudy = () => {
   return (
     <section id="case-study" className="border-b-2 border-stone-900 py-24 px-4 sm:px-6 lg:px-8 bg-stone-50">
@@ -57,8 +59,19 @@ const CaseStudy = () => {
               IMPACT
             </h3>
             <p className="font-sans text-stone-900 leading-relaxed">
-              Deployed for a non-profit crisis response organization, The Digital Hearth processes thousands of voice interactions daily, converting spoken requests into actionable workflows while maintaining strict HIPAA compliance. The system operates with zero-downtime deployments and provides complete auditability for regulatory requirements.
+              Architected to process thousands of voice interactions daily, converting spoken requests into actionable workflows while maintaining strict HIPAA compliance. The system is built for zero-downtime deployments and provides complete auditability for regulatory requirements.
             </p>
+          </div>
+          <div className="border-t-2 border-stone-900 pt-8 mt-8">
+            <a
+              href="https://digitalhearth.care"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 border-2 border-stone-900 bg-stone-900 text-stone-50 px-6 py-3 font-mono font-semibold hover:bg-orange-600 transition-colors"
+            >
+              [ VISIT LIVE PLATFORM ]
+              <ExternalLink className="w-4 h-4" />
+            </a>
           </div>
         </div>
       </div>

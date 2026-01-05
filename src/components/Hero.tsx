@@ -7,7 +7,7 @@ const Hero = () => {
           FOR THE FRONT LINES
         </h1>
         <p className="font-sans text-xl md:text-2xl text-stone-900 max-w-2xl mx-auto">
-          Forward deployed engineering for non-profits. High-level architecture and secure AI tools for mission-critical operations.
+          Forward deployed engineering for mission-critical sectors. High-level architecture and secure AI tools for mission-critical operations.
         </p>
         <div className="mt-12">
           <a 
